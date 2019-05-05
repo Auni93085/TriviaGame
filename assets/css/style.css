@@ -1,0 +1,113 @@
+body {
+  background: #631172;
+  font-family: Helsinki;
+  color: white;
+  background: url("../images/Trivia2.jpg");
+}
+
+.context {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h2 {
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.triviaImg {
+  background: url('../images/Trivia.jpg') no-repeat center top;
+  background-size: 50%;
+  height: 600px;
+}
+
+.start-btn {
+  width: 200px;
+  color: black;
+  font-size: 36px;
+  background-color: lawngreen;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  cursor: pointer;
+  
+}
+
+.timer,
+.score {
+  margin-bottom: 30px;
+  color: #fed501;
+  margin: 0;
+  padding: 0;
+}
+
+.score {
+  text-align: right;
+}
+
+.time {
+  color: #ff5270;
+  font-size: 30px;
+}
+
+.question {
+  font-size: 27px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+
+.answer {
+  padding: 20px;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.right-answer {
+  background-color: yellow;
+  color: white;
+}
+
+.wrong-answer {
+  background-color: red;
+  color: white;
+}
+
+.times-up {
+  font-size: 36px;
+  color: red;
+  text-align: center;
+}
+
+.final {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.reset-button {
+  background-color: red;
+  color: white;
+  border: none;
+  margin-top: 80px;
+  border-radius: 40px;
+  width: 300px;
+}
+
+.reset-button:hover {
+  background-color: orangered;
+  border: none;
+}
